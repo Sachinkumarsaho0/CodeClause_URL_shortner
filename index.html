@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Url Shortner</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/css.gg@2.0.0/icons/css/copy.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <p>URL Shortner</p>
+      <input type="text" name="longurl" id="longurl" />
+      <button id="shorten" onclick="shorten()">Shorten</button>
+      <br /><br /><br />
+      <input type="text" name="shorturl" id="shorturl" />
+      <button id="copy" onclick="copy()"><i class="gg-copy"></i></button>
+    </div>
+    <script src="logic.js"></script>
+    <script src="copy.js"></script>
+  </body>
+</html>
